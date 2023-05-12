@@ -1,0 +1,44 @@
+{
+  "technical competency matrix": "Web",
+  "version": "0.1",
+  "last-updated": "20-nov-2018",
+  "title": "Career Acer",
+  "description":
+    "Let’s smash those career ceilings together. Let’s use the Career Acer to look at your career options at ASOS. We have literally hundreds of roles for you to explore to help you map out your exciting future.",
+  "cta_question": "Who are you",
+  "int_ext": [
+    {
+      "title": "An awesome ASOSer already?",
+      "department": {
+        "values": [
+          {
+            "title": "Engineer",
+            "description":
+              "You thrive on nailing tech and playing with the latest tools?",
+            "specialism": [
+              {
+                "title": "Web",
+                "description":
+                  " Are you wanting to build the best web shopping experience in the world?",
+                "levels": [
+                  {
+                    "title": "Senior II",
+                    "description":
+                      "Hey you could lead but you prefer to be hands on and keep delivering great software.",
+                    "profile": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "A future ASOSer?",
+      "department": {
+        "values": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "technical competency matrix": "Web",
+  "version": "0.1",
+  "last-updated": "20-nov-2018",
+  "title": "Career Acer",
+  "description":
+    "Let’s smash those career ceilings together. Let’s use the Career Acer to look at your career options at ASOS. We have literally hundreds of roles for you to explore to help you map out your exciting future.",
+  "question": "Who are you?",
+  "answers": [
+    {
+      "answer": "An awesome ASOSer already",
+      "title": "department",
+      "question": "What's your passion?",
+      "description": "What might you want to do next?",
+      "answers": [
+        {
+          "answer": "QA",
+          "description": "Do you like to break things?"
+        },
+        {
+          "answer": "Engineering",
+          "title": "role",
+          "question": "What's your flavour?",
+          "description": "You are all about building things?",
+          "answers": [
+            {
+              "answer": "Web",
+              "title": "level",
+              "question": "What level are you?",
+              "description": "Build the best web experience in the world?",
+              "answers": [
+                {
+                  "answer": "Grad",
+                  "description":
+                    "Got real passion but little or no experience? Want to be part of a team who will help you be the best?"
+                },
+                {
+                  "answer": "Associate",
+                  "description":
+                    "Are you getting started and want to learn from some of the best?"
+                },
+                {
+                  "answer": "Web Engineer",
+                  "description":
+                    "You know your stuff but are looking to master how to build awesome web applications?"
+                },
+                {
+                  "answer": "Senior",
+                  "description":
+                    "You are a master of web technologies, can mentor people and take on challenge after challenge?"
+                },
+                {
+                  "answer": "Senior II",
+                  "description":
+                    "You could lead but you prefer to be hands on and keep delivering great software?",
+                  "profile": {}
+                },
+                {
+                  "answer": "Lead",
+                  "description":
+                    "Leading a team to produce truly excellent experiences for our users is your next challenge?"
+                }
+              ]
+            },
+            {
+              "answer": "Infrastructure",
+              "description": "Love getting down with the latest cloud tech?"
+            },
+            {
+              "answer": "Android",
+              "description": "Build a 5* App with millions of users?"
+            },
+            {
+              "answer": "Microservices",
+              "description": "Scalable architectural solutions?"
+            },
+            {
+              "answer": "iOS",
+              "description": "Build a 5* App with millions of users?"
+            },
+            {
+              "answer": "Platform Engineer",
+              "description": "Are you a DevOps evangelist?"
+            }
+          ]
+        },
+        {
+          "answer": "UX Designer",
+          "description": "Innovating is where you're at?"
+        },
+        {
+          "answer": "Pattern Cutter",
+          "description": "Create clothes to delight 20 somethings?"
+        },
+        {
+          "answer": "BA",
+          "description": "Do you love translating Business ideas into reality?"
+        },
+        {
+          "answer": "Exec",
+          "description": "Do you like private jets and Rolls Royce’s?"
+        }
+      ]
+    },
+    {
+      "question": "",
+      "description": "",
+      "answer": "A future ASOSer",
+      "department": {}
+    }
+  ]
+}

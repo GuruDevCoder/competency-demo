@@ -1,0 +1,1874 @@
+{
+  "technical competency matrix": "Web",
+  "version": "0.1",
+  "last-updated": "20-nov-2018",
+  "grades": {
+    "qa": {
+      "roles": [
+        {
+          "title": "QA Engineer",
+          "levels": {
+            "ASSOCIATE": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "An enthusiatic learner and motivated individual who recognises their role is to provide information about the Product.",
+              "competencies": {
+                "TECHNICAL": {
+                  "ARCHITECTURE": [
+                    "Can describe to a high level, the architecture of the application most worked on",
+                    "Can list out the major technologies used by the application"
+                  ],
+                  "TOOLS": [
+                    "Can comfortably demonstrate their use of Chrome Dev Tools or equivalent",
+                    "Identifying errors in the console log",
+                    "Identifying element selectors",
+                    "Identifying relevant requests in the network tab",
+                    "Interacting with the DOM when investigating issues"
+                  ],
+                  "TESTABILITY": [
+                    "Understands the differences between mocks and stubs and why you might use one or the other",
+                    "Understands where they are used by the team"
+                  ],
+                  "ENVIRONMENTS": [
+                    "Can describe the environments used by the application and what problem each solves"
+                  ],
+                  "PIPELINE": [
+                    "Can describe the CI pipeline and the testing activities that occur at each step"
+                  ],
+                  "TECHNOLOGY": [
+                    "Demonstrates a clear understanding of Web technology."
+                  ]
+                },
+                "COLLABORATION": [
+                  "Has delivered a brief for Web Innov8 QA sessions",
+                  "Can comfortably discuss learnings from Tech Develops days",
+                  "Demonstrated an ability to learn from other QAs in other platforms",
+                  "Demonstrated a level of engagement with the online testing community"
+                ],
+                "CODE & AUTO TESTS": {
+                  "AUTHORING": [
+                    "Is comfortable pairing with other team members to author new tests",
+                    "Can make minor changes to automated tests and commit to repo",
+                    "Can read through automated test code with confidence"
+                  ],
+                  "COVERAGE": [
+                    "Can describe the different types of automated tests used to test the application and the value they bring"
+                  ],
+                  "WRITING CODE": [
+                    "Demonstrates use of the basics of the JavaScript language",
+                    "Demonstrates a basic understanding and use of HTML and CSS"
+                  ]
+                },
+                "TESTING": {
+                  "BUGS": [
+                    "Submits bugs to the desired quality",
+                    "Follows up on their own bugs to completion",
+                    "Ensures priority bugs are given due focus by the team"
+                  ],
+                  "EXECUTION - EXPLORATORY": [
+                    "Demonstrates an ability to breakdown their Exploratory testing activities in to short sessions",
+                    "Can describe the path taken through an exploratory test session, highlighting areas that weren't covered"
+                  ],
+                  "EXECUTION - NON-FUNCTIONAL": [],
+                  "EXECUTION": [
+                    "Focusses on the risks to the customer",
+                    "Helps the team determine if the COAs have been met",
+                    "Understands the difference between Confirmatory and Exploratory testing activities"
+                  ],
+                  "STRATEGY": [
+                    "Able to walk any member of the Web team through the Platform Test Strategy",
+                    "Able to identify key areas they are involved in and areas where they are not"
+                  ],
+                  "PAIRING": [
+                    "Comfortable pairing with other Testers on the team, contributing to the session",
+                    "Regularly reviews the work of other team members and offers constructive feedback"
+                  ],
+                  "STATIC ANALYSIS": [
+                    "Engages in 3 Amigos and asks good questions on a functional and behavioural level",
+                    "Demonstrates ability to understand and find risks in designs and requirements"
+                  ],
+                  "COVERAGE": [
+                    "Contributes to Test Planning for Stories worked on derived from 3 Amigos",
+                    "Can describe the Test Coverage for a Story worked on using Safe Language to indicate that not everything can be tested",
+                    "Always ensures an appropriate level of cross browser/device coverage is achieved"
+                  ],
+                  "DOMAIN KNOWLEDGE": [
+                    "Has an understanding of the domain in which they work"
+                  ]
+                },
+                "SHIPPING & MONITORING": []
+              }
+            },
+            "ENGINEER": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "An experienced Software Tester who is committed to developing their engineering and analytical skills to help their team deliver a fantastic customer experience.",
+              "competencies": {
+                "TECHNICAL": {
+                  "ARCHITECTURE": [
+                    "Understands the Apps' use of HTTP/HTTPS, the RESTful services the App consumes and how the App uses them",
+                    "Can discuss the architecture of the application with regards to risk"
+                  ],
+                  "TOOLS": [
+                    "Has demonstrated good tooling choice decisions and expertise, describing the tooling necessary to facilitate the level of testing required",
+                    "Investigates usefulness of new tools that may aid testing efforts and communicates findings to their team and the wider QA group",
+                    "Is comfortable using the necessary aspects of the source control solution put in place by the team"
+                  ],
+                  "TESTABILITY": [
+                    "Can use mocks, stubs and other approaches to provide necessary test data and states to aid testing",
+                    "Can modify application code to provide custom selectors to aid automated testing"
+                  ],
+                  "ENVIRONMENTS": [
+                    "Understands how to design and create Test Environments that solve specific problems",
+                    "Comfortable working with the CI pipeline to deploy versions of Apps for testing",
+                    "Demonstrates a good understanding of working with application dependent APIs"
+                  ],
+                  "PIPELINE": [
+                    "Understands the 'checking' needs of the pipeline and can evaluate the testing effectiveness at all layers and for each stage in the pipeline",
+                    "Contributes to the teams efforts in improving the checking capabilities of the pipeline, working with the team to write checks as needed to mitigate necessary risks, including but not restricted to deployment, configuration, smoke"
+                  ],
+                  "TECHNOLOGY": []
+                },
+                "COLLABORATION": [
+                  "Collaborates with other teams in the Platform and people in the wider tech organisation to achieve their testing goals",
+                  "Contributes to the Web Platform Automated Browser Framework through updating existing or creating new packages",
+                  "Actively contributes to team retrospectives, providing solutions to relevant challenges",
+                  "Actively contributes to the wider QA Community by sharing their work and ideas and giving feedback to others",
+                  "Engages often with the online testing community as part of their job and in work hours",
+                  "Is receptive to feedback and shown that they can adapt to it accordingly"
+                ],
+                "CODE & AUTO TESTS": {
+                  "AUTHORING": [
+                    "Has demonstrated an ability to author tests of all types, in line with the needs of the team"
+                  ],
+                  "COVERAGE": [
+                    "Works with Developers on their team to deliver great test coverage at Unit and Component Level",
+                    "Writes Automated Tests and tools that deliver Test Coverage beyond functional regression testing",
+                    "Monitors the performance of their Automated Tests and continually improves them for reliability, coverage and speed"
+                  ],
+                  "WRITING CODE": [
+                    "Demonstrates good engineering principles and practices such a DRY/SOLID",
+                    "Demonstrates the use of different libraries to solve specific problems",
+                    "Demonstrates a good understanding and use of HTML and CSS"
+                  ]
+                },
+                "TESTING": {
+                  "BUGS": [
+                    "Embodies the 0 bugs policy as applied by the team and helps hold the team to account",
+                    "Helps teams triage bugs to determine suitable priority",
+                    "Helps the team maintain a high quality of bug submission"
+                  ],
+                  "EXECUTION - EXPLORATORY": [
+                    "Plans their testing activities using some form of RST/Test Sessions/Test Charters as appropriate for their team",
+                    "Uses Personas to help drive customer focussed testing",
+                    "Demonstrates an ability to use Exploratory Testing for testing activities beyond User Journeys"
+                  ],
+                  "EXECUTION - NON-FUNCTIONAL": [
+                    "Has demonstrated a passion and ability in a Non-Functional testing area",
+                    "Has implemented their Non-Functional testing speciality in their team"
+                  ],
+                  "EXECUTION": [
+                    "Prepares their testing using heuristics and models",
+                    "Demonstrates an ability to focus their testing on specific risks and choses the appropriate approach for best results"
+                  ],
+                  "STRATEGY": [
+                    "Understands why parts of the Test Strategy are not implemented in their team and the associated risks",
+                    "Demonstrates an understanding of Testing in Production and when they have chosen to use that strategy to aid testing",
+                    "Provides solutions to fill gaps in the Test Strategy for the applications they work on"
+                  ],
+                  "PAIRING": [
+                    "Pairs with other Testers on the team, contributing to their testing session",
+                    "Organises and runs Mob testing sessions as part of Story Acceptance",
+                    "Pairs with Design/UX for sign off",
+                    "Executes Pair Testing with Developers"
+                  ],
+                  "STATIC ANALYSIS": [
+                    "Actively contributes to 3 Amigos and derives the conversation in to a Test Plan and creates new/updates existing Test Models",
+                    "Demonstrates an ability to understand and find risks in designs and requirements"
+                  ],
+                  "COVERAGE": [
+                    "Has the experience to ask questions and derive tests that cover all software testing types associated with the app(s) in their team, including Non Functional",
+                    "Can describe the Test Coverage achieved for a Story worked on, using Safety Language to indicate that not everything can be tested",
+                    "Always ensures an appropriate level of cross browser/device coverage is achieved",
+                    "Helps the team mitigate gaps in automated tests with appropriate manual solutions"
+                  ],
+                  "DOMAIN KNOWLEDGE": []
+                },
+                "SHIPPING & MONITORING": [
+                  "Comfortable owning a release from start to finish",
+                  "Demonstrated they can launch features to customers that are already in Production through feature flag manipulation",
+                  "Monitors Production post release and regularly whilst Live",
+                  "Raises production issues and incidents found in the appropriate manner, including from Social Media and other Production related feeds",
+                  "Takes time to Test in Production to monitor application quality"
+                ]
+              }
+            },
+            "SENIOR": {
+              "Reward level": "GUIDE",
+              "description":
+                "A respected leader and highly experienced Software Tester with exceptional testing skills and an open, collaborative approach who has the drive and passion to bring out the very best in their team and the experiences it delivers.",
+              "competencies": {
+                "TECHNICAL": {
+                  "ARCHITECTURE": [
+                    "Gives feedback to Principal/Dev Lead/Devs on the architecture of the application to improve testability",
+                    "Ensures that the team consider the architecture model of the application when discussing the testing of features"
+                  ],
+                  "TOOLS": [
+                    "Helps the team make decisions on tooling choices through good questioning and POC design",
+                    "Works with Lead QA to POC commercial 3rd party tooling and build cases for budget and inclusion in testing approach"
+                  ],
+                  "TESTABILITY": [
+                    "Helps the team design and implement suitable mocking/stubbing solutions to solve specific testing challenges, working with dependent API teams as needed"
+                  ],
+                  "ENVIRONMENTS": [
+                    "Helps the team design suitable environments to solve specific testing challenges",
+                    "Encourages the team to use Production for suitable testing activities and to mitigate specific risks",
+                    "Encourages the use of contract tests to build confidence in dependency assumptions"
+                  ],
+                  "PIPELINE": [
+                    "Ensures that the team are actively challenging and improving the testing and checking capabilities of the pipeline, where necessary"
+                  ],
+                  "TECHNOLOGY": []
+                },
+                "COLLABORATION": [
+                  "Builds strong relationships with QAs in the Apps and Content teams to foster cross platform testing activities and problem solving",
+                  "Works closely with the Release QA Team to ensure that updates to site behaviours and other relevant changes are communicated in a timely manner",
+                  "Works with the Dev Lead and ADM to ensure that relevant retrospective actions are tracked and delivered",
+                  "Plays an active role in the ASOS QA Community, helping to foster learning and collaboration across platforms",
+                  "Actively engages with the wider testing community by attending conferences as a delegate and takes opportunities to give talks/run workshops, promoting ASOS as a great place to work",
+                  "Contributes to the ASOS Tech Blog",
+                  "Builds relationships and communicates with API teams to enhance team/tech understanding, assess changes and risk to the Web App and reduce quality gaps",
+                  "Encourages QAs in their team to collaborate with other QAs in the platform and across ASOS",
+                  "Ensures that the team works closely with down stream stakeholders such as Customer Care, learning from customer issues and ensuring Customer Care are prepared for changes introduced",
+                  "Builds close relationships with central teams who specialise in non-functional testing such as the Performance and Security teams"
+                ],
+                "CODE & AUTO TESTS": {
+                  "AUTHORING": [
+                    "Encourages the team on authoring tests that provide value beyond automated regression tests",
+                    "Focusses the team on delivering functional test coverage at unit, component and integration level and away from the browser as much as makes sense"
+                  ],
+                  "COVERAGE": [
+                    "Ensures that the apps they work on have a comprehensive automated section of the teams Test Strategy",
+                    "Ensures that the team measures their automated test coverage and highlights areas for improvement",
+                    "Ensures the team measures the performance and reliability of the automated tests within the pipeline and implements optimisations where appropriate"
+                  ],
+                  "WRITING CODE": [
+                    "Plays an active part in the team, creating bespoke tooling where there is a gap in COTS availability or ROI",
+                    "Demonstrates a Test First approach to writing tools and frameworks",
+                    "Working with the Dev Lead, ensures that the team understands their current coding practices, levels of adoption and suggests future improvements",
+                    "Acts as a maintainer for the components of the Web Platform Automated Browser Framework"
+                  ]
+                },
+                "TESTING": {
+                  "BUGS": [
+                    "Is accountable for the quality of the bugs submitted by their team and that the team have Prioritised bugs effectively",
+                    "Has a clear picture of the open bugs in their team and drives the 0 bug policy",
+                    "Uses data from the team's historical bug record to identify areas where quality can be improved through RCA",
+                    "Ensures that where it makes sense, an automated test is created for each bug fixed, to reduce likelihood of future regression",
+                    "For Cross Team Projects and 'Features' ensures that the team contributes to programme bug lists, keeps them up to date and communicates status between team and programme management effectively"
+                  ],
+                  "EXECUTION - EXPLORATORY": [
+                    "Ensures that the team uses good practices for recording and managing RST/Test Sessions/Test Charters"
+                  ],
+                  "EXECUTION - NON-FUNCTIONAL": [
+                    "Demonstrates a broad understanding of non-functional testing types",
+                    "Ensures that their applications are assessed on a risk basis for all non-functional test types and strives to incorporate all non-functional testing types in to their team where it makes sense to do so",
+                    "Ensures that their applications are measured against all non-functional requirements",
+                    "Plays particular attention to Client Side Performance and Peak Readiness Load testing of the applications they work with",
+                    "Articulates why some non-functional test types are not currently being executed and keeps those decision records up to date"
+                  ],
+                  "EXECUTION": [
+                    "Helps the team build a playbook of heuristics to improve test execution and ensure lessons are learned and not forgotten",
+                    "Helps the team build models to describe features, dependencies, architectures and any other aspect of the applications they support that makes sense"
+                  ],
+                  "STRATEGY": [
+                    "Develops, owns and updates a Context Driven Test Strategy for the team based on the Test Strategy for the Platform",
+                    "Is accountable for communicating the strategy to their team and gathering feedback"
+                  ],
+                  "PAIRING": [
+                    "Encourages pair testing in their team, particularly between Dev & Test",
+                    "Ensures the team have a Mob Testing process for completing stories and features",
+                    "Ensures BA, Design and UX are heavily involved in the sign off/Mob Testing process for Stories and Features",
+                    "Ensures that QAs do not solely sign off Stories, features and releases"
+                  ],
+                  "STATIC ANALYSIS": [
+                    "Monitors the usefulness of 3 Amigos and Refinement sessions in their team and introduces incremental improvements as needed",
+                    "Keeps and maintains a register of risks for the applications they work on",
+                    "Uses their risk register to build confidence in stakeholders. Ensuring that they know that we understand the needs of the business and our customers"
+                  ],
+                  "COVERAGE": [
+                    "Monitors the test coverage of the applications they work on for all testing types, either digitally or through other means, preferably using models and other visual means",
+                    "Is aware of gaps in the application's test coverage and has appropriate work in the backlog to mitigate for those gaps",
+                    "Where gaps in coverage are acceptable, ensures that the team have appropriate decision logs in place to communicate why they are acceptable",
+                    "Ensures that the applications they work on cover the minimum number of browsers and devices as specified by the Platform Browser/Device Matrix"
+                  ],
+                  "DOMAIN KNOWLEDGE": [
+                    "Ensures that soft dependencies such as AKAMAI and SEO are considered when discussing testing"
+                  ]
+                },
+                "SHIPPING & MONITORING": [
+                  "Helps the team streamline the release process, reducing manual steps and manual testing where possible",
+                  "Champions Testing in Production as an approach to reduce risk and increase speed to market",
+                  "Ensures that the team monitors Production during and post release",
+                  "Is aware of the incidents raised against Production for the applications they are responsible",
+                  "Helps the Dev Lead and ADM action incidents in a timely manner",
+                  "Ensures that the team take time to Test in Production at regular intervals to compare monitoring view against actual",
+                  "Ensures that Testers are not the bottleneck or owners of releases and champions the ethos of it being a team effort"
+                ],
+                "TALENT": [
+                  "Plays an active role in screening and interviewing candidates, providing feedback on hiring decisions",
+                  "Helps the QA Leads keep job descriptions, interview questions and exercises useful and up to date",
+                  "Works closely with new hires to ensure that they're supported through their probation period",
+                  "Works closely with the QAs in the team to understand their ambitions and gaps and feeds them in to the ADM and QA Lead",
+                  "Is the direct Coach and Mentor for all QAs in the team"
+                ]
+              }
+            },
+            "LEAD": {
+              "Reward Level": "GUIDE",
+              "description":
+                "A confident, authoritative and respected subject matter expert in Software Testing with a breadth and depth of analysis, technical skills and delivery experience, honed through the design and implementation of testing practices across multi-discipline teams.",
+              "competencies": {
+                "DIRECTION SETTING": [
+                  "Build a Testing Practice that covers all disciplines and supports the platform in delivering high quality experiences to our customers.",
+                  "Help define NFRs and guide teams to set appropriate targets.",
+                  "Support the platform in moving to Core / Feature teams.",
+                  "To set the Testing Strategy and Approach for the platform.",
+                  "Support teams with Kanban policies that align with the Test Strategy and Approach.",
+                  "Ensure that our Test Approach informs of the risks to delivering an always available service.",
+                  "Provide Critical Distance to the teams by working as an 'outsider'."
+                ],
+                "CONTINUOUS IMPROVEMENT & GUIDANCE": [
+                  "Evolve the Testing Practice to keep ahead of the business and technical challenges to come.",
+                  "Find or build tooling to help teams be more effective / efficient.",
+                  "Aid the teams in improving our application performance.",
+                  "Continuously update and improve the Test Strategy and Approach.",
+                  "Measuring of Test Related Feature/Core KPIs.",
+                  "Continue to evolve and manage Quality Quests.",
+                  "Define the Production and Social data feeds necessary to inform teams on where to improve."
+                ],
+                "CROSS PLATFORM & LARGE PROJECT GUIDANCE": [
+                  "Guide Cross Platform and Large Projects to help stakeholders and individuals understand and deliver the testing required to meet the goals outlined.",
+                  "Collaborate with RQA and the teams to define and manage the environments used to test and deploy including any cross team, common test data services required.",
+                  "Collaborate with defined teams to align on dependencies.",
+                  "Understand the Solution being delivered.",
+                  "Have a continually updated understanding of the Platform.",
+                  "Aid the teams to effectively communicate the information gathered from testing.",
+                  "Guide the teams to prioritise testing efforts in line with the project risks and goals."
+                ],
+                "COACHING & MENTORING": [
+                  "Coach everyone across all disciplines to help them become the best testers they can be.",
+                  "Hands on coaching to help teams and individuals deliver.",
+                  "If a team or individual doesn't know what to do, we get involved.",
+                  "Help identify suitable objectives for QAs.",
+                  "Define What Good Looks Like for QAs in the Web platform.",
+                  "Support individuals in helping them achieve their objectives."
+                ],
+                "TALENT ATTRACTION": [
+                  "Build a Brand that attracts the best talent to Web & Apps from inside and outside ASOS.",
+                  "Contribute to the Tech Blog with testing related posts.",
+                  "Participate in Meetups hosted internally by ASOS, hosted externalyl and at conferences on behalf of ASOS and the platform.",
+                  "Actively engage in prominent testing community channels (slack/linkedin/twitter).",
+                  "Build an interview process that enables us to hire the right people, consistently and involves the team.",
+                  "Review candidates for suitability in line with the testing needs of the Platform.",
+                  "Ensure our job adverts set a tone that encourages the right candidates to apply."
+                ],
+                "COMMUNITY & STANDARDS": [
+                  "Permeate our Values, Standards and Practices throughout ASOS to help Tech deliver high quality experiences to our customers.",
+                  "Actively contribute to the Web, Apps & Content QA Community.",
+                  "Brown Bags & Lunch 'n' Learns.",
+                  "Tech Develops Workshops & Presentations.",
+                  "Share our most impactful workshops and guides.",
+                  "Actively share how we work and the lessons we've learned with the rest of ASOS."
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "engineer": {
+      "roles": [
+        {
+          "title": "Web Engineer",
+          "levels": {
+            "TRAINEE/INTERN/GRADUATE": {
+              "Reward level": "CORE",
+              "description":
+                "An enthusiatic learner who is keen to develop a range of engineering and soft skills.",
+              "competencies": {
+                "PAGE COMPOSITION":
+                  "Able to describe how HTML is a structured markup language",
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to describe why accurate visual designs is important.",
+                  "Demonstrate awareness of different input considerations such as touch",
+                  "Able to describe the different type of images used"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between static and dynamic content and can show examples of each."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to describe what design patterns are."
+                ],
+                "ARCHITECTURE": [
+                  "Able to explain why well-designed architecture is vital to the successful implementation of well-crafted software systems."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to understand and describe  the differences between components communicating in-process and across network boundaries."
+                ],
+                "PERFORMANCE": [
+                  "Able to understand and describe the HTTP request/response model"
+                ],
+                "SCALABILITY": [
+                  "Able to describe the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of small units of code."
+                ],
+                "DATA": [
+                  "Able to describe the basics of consuming a REST API and describe a simple REST data model.",
+                  "Able to articulate the main HTTP verbs and when they should be used."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to describe the basic purposes of the tools and technologies used by the team, including software development and test automation frameworks, continuous integration and delivery, data management, and reporting, diagnostics and telemtry and any other tools used to support development and support."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe the difference between and benefits of responsive and adaptive web development."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to explain the benefits of having separate environments for development, test and production.",
+                  "Able to explain the benefits of separating source control and configuration management and how they come together at build/deploy time.",
+                  "Able to describe what kinds of  documentation can be used to describe a system and what information is needed to release it into a new environement."
+                ],
+                "CODE QUALITY": [
+                  "Able to explain the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to describe why well-crafted software mitigates the need for extensive documentation."
+                ],
+                "CODE REVIEW": [
+                  "Understands feedback from code reviews and consequently implements appropriate changes in code and approaches"
+                ]
+              }
+            },
+            "ASSOCIATE": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "A motivated engineer who is actively developing their technical and soft skills to help their team deliver well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to implement valid and semantic HTML.",
+                  "Able to describe how different markup structures can impact SEO"
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement accurate visual designs on at least one target client",
+                  "Implement different input support that works with a visual design",
+                  "Able to implement  the correct type of images for a given scenario."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate at least one commonly used software design pattern and when it should be used."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a component-level software architecture, clearly and consicely, including  interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST."
+                ],
+                "PERFORMANCE": [
+                  "Able to measure HTTP performance and can describe techniques to improve the results."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of complete components."
+                ],
+                "DATA": [
+                  "Able to design and implement basic operations on a REST API and apply RESTFul guidelines.",
+                  "Able to articulate the difference between relational and non-relational data stores.",
+                  "Able to design and implement simple  data models."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate the purposes of the tools and technologies used by the team.",
+                  "Able to use the basic functionality of these tools and technologies effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe a mobile first engineering approach and strives to apply the technique.",
+                  "Strives to practice responsive web development techniques."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to describe the development, test and production environments used by the teams and how they are provisioned.",
+                  "Able to build, package and deploy software through environments; manage configuration settings and check the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops. "
+                ],
+                "CODE QUALITY": [
+                  "Able to understand and articulate the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools and use these tools and approaches consistently to improve code quality"
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to articulate why well-crafted software mitigates the need for extensive documentation and strives to craft code which meets these goals."
+                ],
+                "CODE REVIEW": [
+                  "Participates in code reviews with only some input."
+                ]
+              }
+            },
+            "ENGINEER": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "An experienced engineer who is committed to developing their technical and soft skills and delivering well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to describe the types of templating being used to generate HTML documents and components EG: (Mustache, JSX)",
+                  "Able to examine a visual / interaction design and draw component boundaries.",
+                  "Understand accessibility  design considerations."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to apply responsive designs across all target clients.",
+                  "Ensure visual designs that are not opimised for target client inputs are modified.",
+                  "Implement responsive images."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions ensuring each users get the optimal experience for their device.",
+                  "Able to describe techniques for supporting clients that do not fully implement current web standards.",
+                  "Demonstrate understanding of reflows, repaints and triggering layout in browser"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a range of software design patterns, when they should be used and what problems they address.",
+                  "Able to articulate a range of architectural patterns, when they should be used and what problems they address."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a system-level software architecture, clearly and consicely, including interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency  and application routing.",
+                  "Able to inspect the state of integration processes using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to describe how to measure perfomance relevant to the business requirements across the UI stack.",
+                  "Implements best practices for improving HTTP performance."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure and optimise the performance of multiple, integrated components.",
+                  "Able to implement scalability in software solutions based on pre-defined approaches."
+                ],
+                "DATA": [
+                  "Able to articulate the main types of structured data storage - including Relational, Key-Value, Column, Document and Object, as well as the ACID approach to consistency.",
+                  "Able to design and implement multiple-entity data models.",
+                  "Able to implement CRUD operations on a data store and apply filtering, ordering and aggregation."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, where they are used and for what purpose.",
+                  "Able to use these tools and technologies confidently and effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Strives to implement engineering solutions mobile first with an optimum experience for each target client.",
+                  "Practices a responsive web development approach."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to execute the provisioning of new environments through a repeatable, automated process.",
+                  "Able to build, package and deploy software through environments; make small changes and improvements to the build and deploy process; define and manage configuration settings and verify the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops as well as the documentation created by other teams. "
+                ],
+                "CODE QUALITY": [
+                  "Creates tested software engineering solutions. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and strives to adhere to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers."
+                ]
+              }
+            },
+            "SENIOR": {
+              "Reward level": "GUIDE",
+              "description":
+                "An experienced engineer with deep technical skills who pro-actively contributes to the team and is passionate about delivering high-quality, well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction design and draw component boundaries, explaining the significance to the designer.",
+                  "Implements SEO and accessibility compliant designs."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement and articulate in detail, the application of responsive designs appropriate to the client being used.",
+                  "Implement components and applications that are visually accessible and input friendly, working with teams to improve designs",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between browser detection and feature detection and strives to implement feature detection.",
+                  "Able to articulate the purpose of browser polyfills and how to check they are applicable.",
+                  "Optimise components  to avoid unnecessary reflows, repaints and using different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to implement perfomance tests optimised for the business requirements across the UI stack."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components.",
+                  "Able to implement and measure scalability in software solutions based on non-functional requirements."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex data models which include multiple entities, relationships and/or hierarchies.",
+                  "Able to design implement and debug CRUD operations designed for concurrency on a data store and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, why they were selected, where they are used and for what purpose and also describe the tools and technologies used by related teams.",
+                  "Able to draw upon a deep knowledge of these tools to implement complex engineering approaches confidently and effectively."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to understand and articulate the difference between cross-browser and multi-browser support."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to modify and execute the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to build, package and deploy software through environments; make changes and improvements to the build and deploy process; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and support a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Creates fully automated tested software engineering solutions with a focus on continuous integration and continuous deployment. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW":
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team."
+              }
+            },
+            "SENIOR II": {
+              "Reward level": "GUIDE",
+              "description":
+                "A highly experienced engineer with exceptional technical skills with the drive and passion to deliver exceptional software. Widely recognised for engineering excellence outside of the team as well as within. ",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries, expaining the technical improvements  to the designer and engineering teams.",
+                  "Lead SEO and accessibility compliant designs. ",
+                  "Assess new technologies  in the design space."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to measure the complexity of the code required to implement a responsive design.",
+                  "Aware of possible performance impact of responsive designs.",
+                  "Suggests engineering initiatives to improve visual accessibility and input support",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience and optimise experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Implements feature detection over browser detection.",
+                  "Able to articulate how to use browser polyfills as well as implement in a progresively enhanced manner. ",
+                  "Optimise applications and components to avoid unnecessary reflows, repaints and use different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, implement and articulate the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them.",
+                  ""
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates."
+                ],
+                "PERFORMANCE": [
+                  "Implements performance improvements defined through a set of well defined performance test strategies.",
+                  "Proactively investigates the impact of business change to performance before implementing any changes."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates a understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering approaches confidently and effectively.",
+                  "Able to evaluate tools and technologies to meet the  engineering challenges of the team."
+                ],
+                "BROWSER SUPPORT": [
+                  "Sets an example to the team in implementing multi-browser, progressively enhanced engineering solutions."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate, and contribute to the planning of, the development, test and production environments used by the team and how they are provisioned. Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to execute the build, package and deploy steps of software through environments, including co-ordinating dependencies with other teams; identify and implement changes and improvements to the build, package and deploy processes; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and manage a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Practices a test first approach to software engineering solutions with a focus on automation, continuous integration and continuous deployment. Rigoroulsy applies and maintains static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Sets an example to the team in implementing well-crafted software which does not require extensive documentationand which adheres to the principles of SOLID, YAGNI, KISS and DRY. "
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team and across the whole discipline."
+                ]
+              }
+            },
+            "LEAD": {
+              "Reward level": "GUIDE",
+              "description":
+                "A respected leader and highly experienced engineer with exceptional technical skills and an open, collaborative approach who has the drive and passion to bring out the very best in their team and the software it delivers.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries to improve SEO / accessibility implementation,  explaining the technical and business improvements to the designer and engineering teams.",
+                  "Spike new layout and composition  technologies to help assess value to the business and engineering teams."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Actively works with the team to ensure complexity of the code is reduced including design changes where appropriate.",
+                  "Actively works with team to ensure perofrmance conseuqences of responsive design are mitigated as much as possible",
+                  "Lead engineering initiatives to improve visual accessibility and input support, including large scale refctors.",
+                  "Lead advanced refactoring to optimise visual performance of site, using browser / CDN caching plus image source optimisations"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to articulate in detail how feature detection works and define strategies and implemention for a range of feature tests.",
+                  "understand and articulate the consequences of using browser polyfills and explain to peers.",
+                  "Refactor entire codebases  to  avoid unnecessary reflows, repaints and use different layout triggers."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, select, articulate and implement the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them. ",
+                  "Guides the team through implementation and approach, ensuring they understand the reasoning and benefits."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements.",
+                  "Able to apply a combination of knowledge and pertinent questioning to comprehend a solution architecture on sight.",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to articulate and implement best practice for non-browser based caching and routing layers."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework and the effects of hardware and infrastructure capabilities. Actively guides the team in taking the most suitable approaches to implementation.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to design, implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering challenges, confidently and effectively.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges of the team, taking into account requirements, complexity, maintenance and architectural direction."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively contributes to platform support standards making use of analytics data to drive decisions on where progressively enhanced features can be significantly different between platforms."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Responsible for defining, planning and co-ordinating the development, test and production environments used by the team and the process of provisioning them, in close collaboration with the Solution Architect to ensure they align with the defined architecture.",
+                  "Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Actively shares this knowledge, ensuring that all team members fully understand the process and can execute it with confidence.",
+                  "Responsible for the build, package and deploy process of software through environments, including identifying and co-ordinating technical dependencies with other teams; identifying, co-ordinating and implementing changes and improvements to the process; defining, managing and co-ordinating configuration settings and troubleshooting deployment issues, pro-actively collaborating with other teams as appropriate.",
+                  "Responsible for the team's documentation about the products it develops, ensuring that it is coherent, visible and up-to-date. Able to find and understand other teams' documentation and contribute to it if required.",
+                  "Responsible for ensuring, as far as practically possible, the successful release of the team's software into production, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Sets an example to the team in practising a test first approach to software engineering solutions with a focus on automation continuous integration and continuous deployment and ensures the team.",
+                  "Rigoroulsy applies and maintains static code quality analysis tools and uses the results to help develop the team.",
+                  "Has a full understanding of how code style impacts debugging and general problem solving and promotes good coding style within the team."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively works with the team to ensure that it produces well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY.",
+                  "Balances bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within the team."
+                ]
+              }
+            },
+            "PRINCIPAL": {
+              "Reward level": "TRANSLATE",
+              "description":
+                "A confident, authoritative and respected subject matter expert in engineering with a breadth and depth of technical skills and delivery experience, honed through the design and implementation of complex architectures across multi-discipline teams.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to guide the usage of any given templating, SEO and accessibility technique.",
+                  "Able to critically examine technology options around existing and future  layout and component techniques and map out a migration path."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to understand the consequences and trade offs of adopting and implementing a responsive design.",
+                  "Guides design teams to produce visual treatments offering the best balance between code complexity and customer experience."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely including how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex customer experience on sight.",
+                  "Able to define best practice for multi-device support including a test strategy."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to articulate and guide the evaluation, selection and implementation of a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them in a relevant language. "
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex, distributed architecture on sight. ",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions and, drawing on experience, guide their implementation as part of a larger architecture implementation, co-ordinating and collaborating with other engineering teams and areas of the business, to realise the functional and non-functional requirements as a production-ready delivery. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to articulate  and guide the implemention of architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements, which are co-ordinated across teams and align to the overall roadmap.",
+                  "Able to articulate and guide the implemention of pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to draw on knowledge and experience to aid troubleshooting issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to articulate and guide the implementation of mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of the UI layers of an application including transport protocols, renderers and in-page interactions."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and be confident in making informed and pragmatic decisions on the optimal balance between the two to meet a given set of requirements.",
+                  "Demonstrates an authoritative understanding of both in real-world scenarios, drawing from knowledge and experience of development frameworks and hardware and infrastructure capabilities. Pro-actively establishes best practices the team in taking the most suitable approaches to implementation.",
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to provide guidance and hands-on support in the design, implemention, measurement, troubleshooting and optimisation of scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate and guide the selection and implementation of the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design and implementation of complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design, implementation and best practices of complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores which apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by all teams in a given area of responsibility, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon knowledge and experience so as to act as an authoritative and effective guide to teams in the approach to, and the implementation of, complex engineering challenges.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges across teams, balancing this with organisational requirements, complexity, maintenance and architectural direction",
+                  "Demonstrates consideration of the total cost of ownership and economy of scale in evaluating both new and existing tools and technologies. Ensures that there is is a high degree of transparency in the process, that the greatest scope of shared benefit is achieved and that there is no contention with similar activities activies in other areas of the business."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively engages with customer intelligence data to ensure platform support standards are relevant to the widest possible range of customers.",
+                  "Articulates and actively guides the development of platform optimisation and compatibility standards."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Ensures that the process of building, packaging and deploying software through environments, across teams, is done in a consistent, transparent way which adheres to the processes and principles set out by engineering leadership. ",
+                  "Works with teams to promote best practice, improve automation and reduce risk in the release of software. Ensures that knowledge is shared across teams and with the wider engineering organisation and that new approaches are agreed and adopted.",
+                  "Actively ensures that technical depencies are co-ordinated between teams and that a clear, timely, collaborative and repeatable technical approach is followed when releasing software so that risk is mitigated."
+                ],
+                "CODE QUALITY": [
+                  "Promotes a test-first approach to software engineering solutions and a co-ordinated approach to automation, continuous integration and continuous deployment across teams and the wider technology organisation. Monitors and refines static code quality analysis tools continuously to identify areas of improvement and pro-actively works with teams to help develop and strengthen them. Has a full understanding of how code style impacts debugging and general problem solving and promotes these across teams."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively guides the teams to produce well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY. Ensures that engineering choices an approaches balance bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Ensures that the code review process is active, efficient and beneficial. Continuously reviews the code produced by teams, including third party teams, to ensure that it adheres to ASOS patterns and pratices."
+                ]
+              }
+            }
+          }
+        },
+        {
+          "title": "Platform Engineer",
+          "levels": {
+            "TRAINEE/INTERN/GRADUATE": {
+              "Reward level": "CORE",
+              "description":
+                "An enthusiatic learner who is keen to develop a range of engineering and soft skills.",
+              "competencies": {
+                "PAGE COMPOSITION":
+                  "Able to describe how HTML is a structured markup language",
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to describe why accurate visual designs is important.",
+                  "Demonstrate awareness of different input considerations such as touch",
+                  "Able to describe the different type of images used"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between static and dynamic content and can show examples of each."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to describe what design patterns are."
+                ],
+                "ARCHITECTURE": [
+                  "Able to explain why well-designed architecture is vital to the successful implementation of well-crafted software systems."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to understand and describe  the differences between components communicating in-process and across network boundaries."
+                ],
+                "PERFORMANCE": [
+                  "Able to understand and describe the HTTP request/response model"
+                ],
+                "SCALABILITY": [
+                  "Able to describe the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of small units of code."
+                ],
+                "DATA": [
+                  "Able to describe the basics of consuming a REST API and describe a simple REST data model.",
+                  "Able to articulate the main HTTP verbs and when they should be used."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to describe the basic purposes of the tools and technologies used by the team, including software development and test automation frameworks, continuous integration and delivery, data management, and reporting, diagnostics and telemtry and any other tools used to support development and support."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe the difference between and benefits of responsive and adaptive web development."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to explain the benefits of having separate environments for development, test and production.",
+                  "Able to explain the benefits of separating source control and configuration management and how they come together at build/deploy time.",
+                  "Able to describe what kinds of  documentation can be used to describe a system and what information is needed to release it into a new environement."
+                ],
+                "CODE QUALITY": [
+                  "Able to explain the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to describe why well-crafted software mitigates the need for extensive documentation."
+                ],
+                "CODE REVIEW": [
+                  "Understands feedback from code reviews and consequently implements appropriate changes in code and approaches"
+                ]
+              }
+            },
+            "ASSOCIATE": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "A motivated engineer who is actively developing their technical and soft skills to help their team deliver well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to implement valid and semantic HTML.",
+                  "Able to describe how different markup structures can impact SEO"
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement accurate visual designs on at least one target client",
+                  "Implement different input support that works with a visual design",
+                  "Able to implement  the correct type of images for a given scenario."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate at least one commonly used software design pattern and when it should be used."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a component-level software architecture, clearly and consicely, including  interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST."
+                ],
+                "PERFORMANCE": [
+                  "Able to measure HTTP performance and can describe techniques to improve the results."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of complete components."
+                ],
+                "DATA": [
+                  "Able to design and implement basic operations on a REST API and apply RESTFul guidelines.",
+                  "Able to articulate the difference between relational and non-relational data stores.",
+                  "Able to design and implement simple  data models."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate the purposes of the tools and technologies used by the team.",
+                  "Able to use the basic functionality of these tools and technologies effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe a mobile first engineering approach and strives to apply the technique.",
+                  "Strives to practice responsive web development techniques."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to describe the development, test and production environments used by the teams and how they are provisioned.",
+                  "Able to build, package and deploy software through environments; manage configuration settings and check the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops. "
+                ],
+                "CODE QUALITY": [
+                  "Able to understand and articulate the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools and use these tools and approaches consistently to improve code quality"
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to articulate why well-crafted software mitigates the need for extensive documentation and strives to craft code which meets these goals."
+                ],
+                "CODE REVIEW": [
+                  "Participates in code reviews with only some input."
+                ]
+              }
+            },
+            "ENGINEER": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "An experienced engineer who is committed to developing their technical and soft skills and delivering well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to describe the types of templating being used to generate HTML documents and components EG: (Mustache, JSX)",
+                  "Able to examine a visual / interaction design and draw component boundaries.",
+                  "Understand accessibility  design considerations."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to apply responsive designs across all target clients.",
+                  "Ensure visual designs that are not opimised for target client inputs are modified.",
+                  "Implement responsive images."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions ensuring each users get the optimal experience for their device.",
+                  "Able to describe techniques for supporting clients that do not fully implement current web standards.",
+                  "Demonstrate understanding of reflows, repaints and triggering layout in browser"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a range of software design patterns, when they should be used and what problems they address.",
+                  "Able to articulate a range of architectural patterns, when they should be used and what problems they address."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a system-level software architecture, clearly and consicely, including interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency  and application routing.",
+                  "Able to inspect the state of integration processes using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to describe how to measure perfomance relevant to the business requirements across the UI stack.",
+                  "Implements best practices for improving HTTP performance."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure and optimise the performance of multiple, integrated components.",
+                  "Able to implement scalability in software solutions based on pre-defined approaches."
+                ],
+                "DATA": [
+                  "Able to articulate the main types of structured data storage - including Relational, Key-Value, Column, Document and Object, as well as the ACID approach to consistency.",
+                  "Able to design and implement multiple-entity data models.",
+                  "Able to implement CRUD operations on a data store and apply filtering, ordering and aggregation."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, where they are used and for what purpose.",
+                  "Able to use these tools and technologies confidently and effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Strives to implement engineering solutions mobile first with an optimum experience for each target client.",
+                  "Practices a responsive web development approach."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to execute the provisioning of new environments through a repeatable, automated process.",
+                  "Able to build, package and deploy software through environments; make small changes and improvements to the build and deploy process; define and manage configuration settings and verify the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops as well as the documentation created by other teams. "
+                ],
+                "CODE QUALITY": [
+                  "Creates tested software engineering solutions. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and strives to adhere to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers."
+                ]
+              }
+            },
+            "SENIOR": {
+              "Reward level": "GUIDE",
+              "description":
+                "An experienced engineer with deep technical skills who pro-actively contributes to the team and is passionate about delivering high-quality, well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction design and draw component boundaries, explaining the significance to the designer.",
+                  "Implements SEO and accessibility compliant designs."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement and articulate in detail, the application of responsive designs appropriate to the client being used.",
+                  "Implement components and applications that are visually accessible and input friendly, working with teams to improve designs",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between browser detection and feature detection and strives to implement feature detection.",
+                  "Able to articulate the purpose of browser polyfills and how to check they are applicable.",
+                  "Optimise components  to avoid unnecessary reflows, repaints and using different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to implement perfomance tests optimised for the business requirements across the UI stack."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components.",
+                  "Able to implement and measure scalability in software solutions based on non-functional requirements."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex data models which include multiple entities, relationships and/or hierarchies.",
+                  "Able to design implement and debug CRUD operations designed for concurrency on a data store and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, why they were selected, where they are used and for what purpose and also describe the tools and technologies used by related teams.",
+                  "Able to draw upon a deep knowledge of these tools to implement complex engineering approaches confidently and effectively."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to understand and articulate the difference between cross-browser and multi-browser support."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to modify and execute the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to build, package and deploy software through environments; make changes and improvements to the build and deploy process; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and support a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Creates fully automated tested software engineering solutions with a focus on continuous integration and continuous deployment. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW":
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team."
+              }
+            },
+            "SENIOR II": {
+              "Reward level": "GUIDE",
+              "description":
+                "A highly experienced engineer with exceptional technical skills with the drive and passion to deliver exceptional software. Widely recognised for engineering excellence outside of the team as well as within. ",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries, expaining the technical improvements  to the designer and engineering teams.",
+                  "Lead SEO and accessibility compliant designs. ",
+                  "Assess new technologies  in the design space."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to measure the complexity of the code required to implement a responsive design.",
+                  "Aware of possible performance impact of responsive designs.",
+                  "Suggests engineering initiatives to improve visual accessibility and input support",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience and optimise experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Implements feature detection over browser detection.",
+                  "Able to articulate how to use browser polyfills as well as implement in a progresively enhanced manner. ",
+                  "Optimise applications and components to avoid unnecessary reflows, repaints and use different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, implement and articulate the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them.",
+                  ""
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates."
+                ],
+                "PERFORMANCE": [
+                  "Implements performance improvements defined through a set of well defined performance test strategies.",
+                  "Proactively investigates the impact of business change to performance before implementing any changes."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates a understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering approaches confidently and effectively.",
+                  "Able to evaluate tools and technologies to meet the  engineering challenges of the team."
+                ],
+                "BROWSER SUPPORT": [
+                  "Sets an example to the team in implementing multi-browser, progressively enhanced engineering solutions."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate, and contribute to the planning of, the development, test and production environments used by the team and how they are provisioned. Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to execute the build, package and deploy steps of software through environments, including co-ordinating dependencies with other teams; identify and implement changes and improvements to the build, package and deploy processes; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and manage a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Practices a test first approach to software engineering solutions with a focus on automation, continuous integration and continuous deployment. Rigoroulsy applies and maintains static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Sets an example to the team in implementing well-crafted software which does not require extensive documentationand which adheres to the principles of SOLID, YAGNI, KISS and DRY. "
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team and across the whole discipline."
+                ]
+              }
+            },
+            "LEAD": {
+              "Reward level": "GUIDE",
+              "description":
+                "A respected leader and highly experienced engineer with exceptional technical skills and an open, collaborative approach who has the drive and passion to bring out the very best in their team and the software it delivers.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries to improve SEO / accessibility implementation,  explaining the technical and business improvements to the designer and engineering teams.",
+                  "Spike new layout and composition  technologies to help assess value to the business and engineering teams."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Actively works with the team to ensure complexity of the code is reduced including design changes where appropriate.",
+                  "Actively works with team to ensure perofrmance conseuqences of responsive design are mitigated as much as possible",
+                  "Lead engineering initiatives to improve visual accessibility and input support, including large scale refctors.",
+                  "Lead advanced refactoring to optimise visual performance of site, using browser / CDN caching plus image source optimisations"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to articulate in detail how feature detection works and define strategies and implemention for a range of feature tests.",
+                  "understand and articulate the consequences of using browser polyfills and explain to peers.",
+                  "Refactor entire codebases  to  avoid unnecessary reflows, repaints and use different layout triggers."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, select, articulate and implement the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them. ",
+                  "Guides the team through implementation and approach, ensuring they understand the reasoning and benefits."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements.",
+                  "Able to apply a combination of knowledge and pertinent questioning to comprehend a solution architecture on sight.",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to articulate and implement best practice for non-browser based caching and routing layers."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework and the effects of hardware and infrastructure capabilities. Actively guides the team in taking the most suitable approaches to implementation.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to design, implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering challenges, confidently and effectively.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges of the team, taking into account requirements, complexity, maintenance and architectural direction."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively contributes to platform support standards making use of analytics data to drive decisions on where progressively enhanced features can be significantly different between platforms."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Responsible for defining, planning and co-ordinating the development, test and production environments used by the team and the process of provisioning them, in close collaboration with the Solution Architect to ensure they align with the defined architecture.",
+                  "Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Actively shares this knowledge, ensuring that all team members fully understand the process and can execute it with confidence.",
+                  "Responsible for the build, package and deploy process of software through environments, including identifying and co-ordinating technical dependencies with other teams; identifying, co-ordinating and implementing changes and improvements to the process; defining, managing and co-ordinating configuration settings and troubleshooting deployment issues, pro-actively collaborating with other teams as appropriate.",
+                  "Responsible for the team's documentation about the products it develops, ensuring that it is coherent, visible and up-to-date. Able to find and understand other teams' documentation and contribute to it if required.",
+                  "Responsible for ensuring, as far as practically possible, the successful release of the team's software into production, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Sets an example to the team in practising a test first approach to software engineering solutions with a focus on automation continuous integration and continuous deployment and ensures the team.",
+                  "Rigoroulsy applies and maintains static code quality analysis tools and uses the results to help develop the team.",
+                  "Has a full understanding of how code style impacts debugging and general problem solving and promotes good coding style within the team."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively works with the team to ensure that it produces well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY.",
+                  "Balances bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within the team."
+                ]
+              }
+            },
+            "PRINCIPAL": {
+              "Reward level": "TRANSLATE",
+              "description":
+                "A confident, authoritative and respected subject matter expert in engineering with a breadth and depth of technical skills and delivery experience, honed through the design and implementation of complex architectures across multi-discipline teams.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to guide the usage of any given templating, SEO and accessibility technique.",
+                  "Able to critically examine technology options around existing and future  layout and component techniques and map out a migration path."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to understand the consequences and trade offs of adopting and implementing a responsive design.",
+                  "Guides design teams to produce visual treatments offering the best balance between code complexity and customer experience."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely including how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex customer experience on sight.",
+                  "Able to define best practice for multi-device support including a test strategy."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to articulate and guide the evaluation, selection and implementation of a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them in a relevant language. "
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex, distributed architecture on sight. ",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions and, drawing on experience, guide their implementation as part of a larger architecture implementation, co-ordinating and collaborating with other engineering teams and areas of the business, to realise the functional and non-functional requirements as a production-ready delivery. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to articulate  and guide the implemention of architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements, which are co-ordinated across teams and align to the overall roadmap.",
+                  "Able to articulate and guide the implemention of pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to draw on knowledge and experience to aid troubleshooting issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to articulate and guide the implementation of mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of the UI layers of an application including transport protocols, renderers and in-page interactions."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and be confident in making informed and pragmatic decisions on the optimal balance between the two to meet a given set of requirements.",
+                  "Demonstrates an authoritative understanding of both in real-world scenarios, drawing from knowledge and experience of development frameworks and hardware and infrastructure capabilities. Pro-actively establishes best practices the team in taking the most suitable approaches to implementation.",
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to provide guidance and hands-on support in the design, implemention, measurement, troubleshooting and optimisation of scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate and guide the selection and implementation of the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design and implementation of complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design, implementation and best practices of complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores which apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by all teams in a given area of responsibility, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon knowledge and experience so as to act as an authoritative and effective guide to teams in the approach to, and the implementation of, complex engineering challenges.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges across teams, balancing this with organisational requirements, complexity, maintenance and architectural direction",
+                  "Demonstrates consideration of the total cost of ownership and economy of scale in evaluating both new and existing tools and technologies. Ensures that there is is a high degree of transparency in the process, that the greatest scope of shared benefit is achieved and that there is no contention with similar activities activies in other areas of the business."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively engages with customer intelligence data to ensure platform support standards are relevant to the widest possible range of customers.",
+                  "Articulates and actively guides the development of platform optimisation and compatibility standards."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Ensures that the process of building, packaging and deploying software through environments, across teams, is done in a consistent, transparent way which adheres to the processes and principles set out by engineering leadership. ",
+                  "Works with teams to promote best practice, improve automation and reduce risk in the release of software. Ensures that knowledge is shared across teams and with the wider engineering organisation and that new approaches are agreed and adopted.",
+                  "Actively ensures that technical depencies are co-ordinated between teams and that a clear, timely, collaborative and repeatable technical approach is followed when releasing software so that risk is mitigated."
+                ],
+                "CODE QUALITY": [
+                  "Promotes a test-first approach to software engineering solutions and a co-ordinated approach to automation, continuous integration and continuous deployment across teams and the wider technology organisation. Monitors and refines static code quality analysis tools continuously to identify areas of improvement and pro-actively works with teams to help develop and strengthen them. Has a full understanding of how code style impacts debugging and general problem solving and promotes these across teams."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively guides the teams to produce well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY. Ensures that engineering choices an approaches balance bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Ensures that the code review process is active, efficient and beneficial. Continuously reviews the code produced by teams, including third party teams, to ensure that it adheres to ASOS patterns and pratices."
+                ]
+              }
+            }
+          }
+        },
+        {
+          "title": "Mobile Engineer",
+          "levels": {
+            "TRAINEE/INTERN/GRADUATE": {
+              "Reward level": "CORE",
+              "description":
+                "An enthusiatic learner who is keen to develop a range of engineering and soft skills.",
+              "competencies": {
+                "PAGE COMPOSITION":
+                  "Able to describe how HTML is a structured markup language",
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to describe why accurate visual designs is important.",
+                  "Demonstrate awareness of different input considerations such as touch",
+                  "Able to describe the different type of images used"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between static and dynamic content and can show examples of each."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to describe what design patterns are."
+                ],
+                "ARCHITECTURE": [
+                  "Able to explain why well-designed architecture is vital to the successful implementation of well-crafted software systems."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to understand and describe  the differences between components communicating in-process and across network boundaries."
+                ],
+                "PERFORMANCE": [
+                  "Able to understand and describe the HTTP request/response model"
+                ],
+                "SCALABILITY": [
+                  "Able to describe the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of small units of code."
+                ],
+                "DATA": [
+                  "Able to describe the basics of consuming a REST API and describe a simple REST data model.",
+                  "Able to articulate the main HTTP verbs and when they should be used."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to describe the basic purposes of the tools and technologies used by the team, including software development and test automation frameworks, continuous integration and delivery, data management, and reporting, diagnostics and telemtry and any other tools used to support development and support."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe the difference between and benefits of responsive and adaptive web development."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to explain the benefits of having separate environments for development, test and production.",
+                  "Able to explain the benefits of separating source control and configuration management and how they come together at build/deploy time.",
+                  "Able to describe what kinds of  documentation can be used to describe a system and what information is needed to release it into a new environement."
+                ],
+                "CODE QUALITY": [
+                  "Able to explain the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to describe why well-crafted software mitigates the need for extensive documentation."
+                ],
+                "CODE REVIEW": [
+                  "Understands feedback from code reviews and consequently implements appropriate changes in code and approaches"
+                ]
+              }
+            },
+            "ASSOCIATE": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "A motivated engineer who is actively developing their technical and soft skills to help their team deliver well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to implement valid and semantic HTML.",
+                  "Able to describe how different markup structures can impact SEO"
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement accurate visual designs on at least one target client",
+                  "Implement different input support that works with a visual design",
+                  "Able to implement  the correct type of images for a given scenario."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate at least one commonly used software design pattern and when it should be used."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a component-level software architecture, clearly and consicely, including  interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST."
+                ],
+                "PERFORMANCE": [
+                  "Able to measure HTTP performance and can describe techniques to improve the results."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability. ",
+                  "Demonstrates consideration of both when writing code.",
+                  "Able to measure and optimise the performance of complete components."
+                ],
+                "DATA": [
+                  "Able to design and implement basic operations on a REST API and apply RESTFul guidelines.",
+                  "Able to articulate the difference between relational and non-relational data stores.",
+                  "Able to design and implement simple  data models."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate the purposes of the tools and technologies used by the team.",
+                  "Able to use the basic functionality of these tools and technologies effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to describe a mobile first engineering approach and strives to apply the technique.",
+                  "Strives to practice responsive web development techniques."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to describe the development, test and production environments used by the teams and how they are provisioned.",
+                  "Able to build, package and deploy software through environments; manage configuration settings and check the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops. "
+                ],
+                "CODE QUALITY": [
+                  "Able to understand and articulate the purpose and benefits of test-driven development, automated unit testing and static code quality analysis tools and use these tools and approaches consistently to improve code quality"
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Able to articulate why well-crafted software mitigates the need for extensive documentation and strives to craft code which meets these goals."
+                ],
+                "CODE REVIEW": [
+                  "Participates in code reviews with only some input."
+                ]
+              }
+            },
+            "ENGINEER": {
+              "Reward level": "IMPLEMENT",
+              "description":
+                "An experienced engineer who is committed to developing their technical and soft skills and delivering well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to describe the types of templating being used to generate HTML documents and components EG: (Mustache, JSX)",
+                  "Able to examine a visual / interaction design and draw component boundaries.",
+                  "Understand accessibility  design considerations."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to apply responsive designs across all target clients.",
+                  "Ensure visual designs that are not opimised for target client inputs are modified.",
+                  "Implement responsive images."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to implement reliable and progressively enhanced user interactions ensuring each users get the optimal experience for their device.",
+                  "Able to describe techniques for supporting clients that do not fully implement current web standards.",
+                  "Demonstrate understanding of reflows, repaints and triggering layout in browser"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a range of software design patterns, when they should be used and what problems they address.",
+                  "Able to articulate a range of architectural patterns, when they should be used and what problems they address."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a system-level software architecture, clearly and consicely, including interactions, sequences and activities and showing consideration for the logical role of each component beyond the specifics of its implementation."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency  and application routing.",
+                  "Able to inspect the state of integration processes using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to describe how to measure perfomance relevant to the business requirements across the UI stack.",
+                  "Implements best practices for improving HTTP performance."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure and optimise the performance of multiple, integrated components.",
+                  "Able to implement scalability in software solutions based on pre-defined approaches."
+                ],
+                "DATA": [
+                  "Able to articulate the main types of structured data storage - including Relational, Key-Value, Column, Document and Object, as well as the ACID approach to consistency.",
+                  "Able to design and implement multiple-entity data models.",
+                  "Able to implement CRUD operations on a data store and apply filtering, ordering and aggregation."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, where they are used and for what purpose.",
+                  "Able to use these tools and technologies confidently and effectively in day-to-day engineering."
+                ],
+                "BROWSER SUPPORT": [
+                  "Strives to implement engineering solutions mobile first with an optimum experience for each target client.",
+                  "Practices a responsive web development approach."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to execute the provisioning of new environments through a repeatable, automated process.",
+                  "Able to build, package and deploy software through environments; make small changes and improvements to the build and deploy process; define and manage configuration settings and verify the success of a deployment.",
+                  "Able to find, understand and contribute to the team's documentation about the products it develops as well as the documentation created by other teams. "
+                ],
+                "CODE QUALITY": [
+                  "Creates tested software engineering solutions. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and strives to adhere to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers."
+                ]
+              }
+            },
+            "SENIOR": {
+              "Reward level": "GUIDE",
+              "description":
+                "An experienced engineer with deep technical skills who pro-actively contributes to the team and is passionate about delivering high-quality, well-crafted software.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction design and draw component boundaries, explaining the significance to the designer.",
+                  "Implements SEO and accessibility compliant designs."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to implement and articulate in detail, the application of responsive designs appropriate to the client being used.",
+                  "Implement components and applications that are visually accessible and input friendly, working with teams to improve designs",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to understand and articulate the difference between browser detection and feature detection and strives to implement feature detection.",
+                  "Able to articulate the purpose of browser polyfills and how to check they are applicable.",
+                  "Optimise components  to avoid unnecessary reflows, repaints and using different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to implement and articulate a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate architectural patterns and styles including Request-Response, Async, Event-Driven and REST.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation."
+                ],
+                "PERFORMANCE": [
+                  "Able to implement perfomance tests optimised for the business requirements across the UI stack."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components.",
+                  "Able to implement and measure scalability in software solutions based on non-functional requirements."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex data models which include multiple entities, relationships and/or hierarchies.",
+                  "Able to design implement and debug CRUD operations designed for concurrency on a data store and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team, why they were selected, where they are used and for what purpose and also describe the tools and technologies used by related teams.",
+                  "Able to draw upon a deep knowledge of these tools to implement complex engineering approaches confidently and effectively."
+                ],
+                "BROWSER SUPPORT": [
+                  "Able to understand and articulate the difference between cross-browser and multi-browser support."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate the development, test and production environments used by the team and how they are provisioned. Able to modify and execute the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to build, package and deploy software through environments; make changes and improvements to the build and deploy process; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and support a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Creates fully automated tested software engineering solutions with a focus on continuous integration and continuous deployment. Rigoroulsy applies static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Implements well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY."
+                ],
+                "CODE REVIEW":
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team."
+              }
+            },
+            "SENIOR II": {
+              "Reward level": "GUIDE",
+              "description":
+                "A highly experienced engineer with exceptional technical skills with the drive and passion to deliver exceptional software. Widely recognised for engineering excellence outside of the team as well as within. ",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries, expaining the technical improvements  to the designer and engineering teams.",
+                  "Lead SEO and accessibility compliant designs. ",
+                  "Assess new technologies  in the design space."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to measure the complexity of the code required to implement a responsive design.",
+                  "Aware of possible performance impact of responsive designs.",
+                  "Suggests engineering initiatives to improve visual accessibility and input support",
+                  "Implement responsive images, leveraging knowledge of CDNs to improve visual experience and optimise experience"
+                ],
+                "USER INTERACTIONS": [
+                  "Implements feature detection over browser detection.",
+                  "Able to articulate how to use browser polyfills as well as implement in a progresively enhanced manner. ",
+                  "Optimise applications and components to avoid unnecessary reflows, repaints and use different layout triggers"
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, implement and articulate the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them.",
+                  ""
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements."
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates."
+                ],
+                "PERFORMANCE": [
+                  "Implements performance improvements defined through a set of well defined performance test strategies.",
+                  "Proactively investigates the impact of business change to performance before implementing any changes."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates a understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering approaches confidently and effectively.",
+                  "Able to evaluate tools and technologies to meet the  engineering challenges of the team."
+                ],
+                "BROWSER SUPPORT": [
+                  "Sets an example to the team in implementing multi-browser, progressively enhanced engineering solutions."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Able to articulate, and contribute to the planning of, the development, test and production environments used by the team and how they are provisioned. Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Able to execute the build, package and deploy steps of software through environments, including co-ordinating dependencies with other teams; identify and implement changes and improvements to the build, package and deploy processes; define and manage configuration settings and troubleshoot deployment issues.",
+                  "Able to define and contribute to the team's documentation about the products it develops as well as the documentation created by other teams.",
+                  "Able to prepare for and manage a production release, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Practices a test first approach to software engineering solutions with a focus on automation, continuous integration and continuous deployment. Rigoroulsy applies and maintains static code quality analysis tools."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Sets an example to the team in implementing well-crafted software which does not require extensive documentationand which adheres to the principles of SOLID, YAGNI, KISS and DRY. "
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within their team and across the whole discipline."
+                ]
+              }
+            },
+            "LEAD": {
+              "Reward level": "GUIDE",
+              "description":
+                "A respected leader and highly experienced engineer with exceptional technical skills and an open, collaborative approach who has the drive and passion to bring out the very best in their team and the software it delivers.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to examine a visual / interaction implementation and refactor component boundaries to improve SEO / accessibility implementation,  explaining the technical and business improvements to the designer and engineering teams.",
+                  "Spike new layout and composition  technologies to help assess value to the business and engineering teams."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Actively works with the team to ensure complexity of the code is reduced including design changes where appropriate.",
+                  "Actively works with team to ensure perofrmance conseuqences of responsive design are mitigated as much as possible",
+                  "Lead engineering initiatives to improve visual accessibility and input support, including large scale refctors.",
+                  "Lead advanced refactoring to optimise visual performance of site, using browser / CDN caching plus image source optimisations"
+                ],
+                "USER INTERACTIONS": [
+                  "Able to articulate in detail how feature detection works and define strategies and implemention for a range of feature tests.",
+                  "understand and articulate the consequences of using browser polyfills and explain to peers.",
+                  "Refactor entire codebases  to  avoid unnecessary reflows, repaints and use different layout triggers."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to evaluate, select, articulate and implement the majority of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them. ",
+                  "Guides the team through implementation and approach, ensuring they understand the reasoning and benefits."
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent solution architecture to meet a specific set of requirements.",
+                  "Able to apply a combination of knowledge and pertinent questioning to comprehend a solution architecture on sight.",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to implement and articulate  architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements.",
+                  "Able to implement and articulate pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to debug and diagnose issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to implement and articulate mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to articulate and implement best practice for non-browser based caching and routing layers."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and the trade-offs between the two.",
+                  "Demonstrates an understanding of both when writing code, based on a deep technical knowledge of the implementation of underlying components of the development framework and the effects of hardware and infrastructure capabilities. Actively guides the team in taking the most suitable approaches to implementation.",
+                  "Able to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to design, implement, measure, debug and optimise scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate, in detail, the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to design and implement complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to design, implement and debug complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores and apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by the team and related teams, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon a deep knowledge and understanding of these tools to determine the approach to, and implementation of, complex engineering challenges, confidently and effectively.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges of the team, taking into account requirements, complexity, maintenance and architectural direction."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively contributes to platform support standards making use of analytics data to drive decisions on where progressively enhanced features can be significantly different between platforms."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Responsible for defining, planning and co-ordinating the development, test and production environments used by the team and the process of provisioning them, in close collaboration with the Solution Architect to ensure they align with the defined architecture.",
+                  "Able to baseline, script, execute and pro-actively refine the provisioning of new environments through a repeatable, automated process and troubleshoot environmental issues.",
+                  "Actively shares this knowledge, ensuring that all team members fully understand the process and can execute it with confidence.",
+                  "Responsible for the build, package and deploy process of software through environments, including identifying and co-ordinating technical dependencies with other teams; identifying, co-ordinating and implementing changes and improvements to the process; defining, managing and co-ordinating configuration settings and troubleshooting deployment issues, pro-actively collaborating with other teams as appropriate.",
+                  "Responsible for the team's documentation about the products it develops, ensuring that it is coherent, visible and up-to-date. Able to find and understand other teams' documentation and contribute to it if required.",
+                  "Responsible for ensuring, as far as practically possible, the successful release of the team's software into production, including creating appropriate documentation; communicating changes and setting expectations clearly and in good time; co-ordinating with other teams and ensuring a graceful rollback is possible."
+                ],
+                "CODE QUALITY": [
+                  "Sets an example to the team in practising a test first approach to software engineering solutions with a focus on automation continuous integration and continuous deployment and ensures the team.",
+                  "Rigoroulsy applies and maintains static code quality analysis tools and uses the results to help develop the team.",
+                  "Has a full understanding of how code style impacts debugging and general problem solving and promotes good coding style within the team."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively works with the team to ensure that it produces well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY.",
+                  "Balances bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Participates on code reviews and actively reviews code written by other engineers. Drives the code review process within the team."
+                ]
+              }
+            },
+            "PRINCIPAL": {
+              "Reward level": "TRANSLATE",
+              "description":
+                "A confident, authoritative and respected subject matter expert in engineering with a breadth and depth of technical skills and delivery experience, honed through the design and implementation of complex architectures across multi-discipline teams.",
+              "competencies": {
+                "PAGE COMPOSITION": [
+                  "Able to guide the usage of any given templating, SEO and accessibility technique.",
+                  "Able to critically examine technology options around existing and future  layout and component techniques and map out a migration path."
+                ],
+                "VISUAL & RESPONSIVE DESIGN": [
+                  "Able to understand the consequences and trade offs of adopting and implementing a responsive design.",
+                  "Guides design teams to produce visual treatments offering the best balance between code complexity and customer experience."
+                ],
+                "USER INTERACTIONS": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely including how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex customer experience on sight.",
+                  "Able to define best practice for multi-device support including a test strategy."
+                ],
+                "SOFTWARE DESIGN AND ARCHITECTURAL PATTERNS": [
+                  "Able to articulate and guide the evaluation, selection and implementation of a broad range of software design and architectural patterns, when they should be used, alternatives which could be considered and the practical considerations of implementing them in a relevant language. "
+                ],
+                "ARCHITECTURE": [
+                  "Able to draw and articulate a complete, end-to-end solution architecture, clearly and concisely, including enterprise and integration patterns, transport and security protocols, consistency models and how it supports non-functional requirements such as performance, scalability and resiliance.",
+                  "Able to design and justify a coherent, well-considered, end-to-end solution architecture which meets functional and non-functional requirements.",
+                  "Able to apply a combination of knowledge, experience and pertinent questioning to comprehend and challenge a complex, distributed architecture on sight. ",
+                  "Able to translate complex, distrbuted architectures into simple, maintainable, well-engineered software solutions and, drawing on experience, guide their implementation as part of a larger architecture implementation, co-ordinating and collaborating with other engineering teams and areas of the business, to realise the functional and non-functional requirements as a production-ready delivery. "
+                ],
+                "MESSAGING AND INTEGRATION": [
+                  "Able to articulate  and guide the implemention of architectural patterns and styles including Request-Response, Fire and Forget, Publish-Subscribe, Store and Forward, Command Query Separation, Async, Event-Driven, REST and SOA and select appropriate approaches to meet requirements, which are co-ordinated across teams and align to the overall roadmap.",
+                  "Able to articulate and guide the implemention of pipelines, transformation, idempotency, serialisation, content-based routing, channel security and message integrity and ensure that these approaches align with those in upstream/downstream systems.",
+                  "Able to draw on knowledge and experience to aid troubleshooting issues in integration using tools and techniques appropriate to the platform or implementation.",
+                  "Able to articulate and guide the implementation of mitigation approaches for problem scenarios such as transient faults, transfer failures, poison messages and floodgates and ensure that these provide the best possible foundation for operational support."
+                ],
+                "PERFORMANCE": [
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of the UI layers of an application including transport protocols, renderers and in-page interactions."
+                ],
+                "SCALABILITY": [
+                  "Able to articulate the differences between performance and scalability and be confident in making informed and pragmatic decisions on the optimal balance between the two to meet a given set of requirements.",
+                  "Demonstrates an authoritative understanding of both in real-world scenarios, drawing from knowledge and experience of development frameworks and hardware and infrastructure capabilities. Pro-actively establishes best practices the team in taking the most suitable approaches to implementation.",
+                  "Able to provide guidance and hands-on support to measure, debug and optimise the performance of multiple, integrated components across system boundaries, drawing on a technical knowledge of the implementation of interactions between system boundaries and instrumentation techniques.",
+                  "Able to provide guidance and hands-on support in the design, implemention, measurement, troubleshooting and optimisation of scalability in software solutions based on non-functional requirements, across multiple, distributed systems."
+                ],
+                "DATA": [
+                  "Able to articulate and guide the selection and implementation of the main types of structured data storage - including Relational, Key-Value, Column, Document and Object - as well as the two main approaches to consistency - ACID and BASE - and the trade-offs between the two.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design and implementation of complex, distributed data models which include multiple entities, relationships and/or hierarchies and demonstrate consideration for consistency, availability and partition tolerance requirements.",
+                  "Able to draw on experience and knowledge to provide guidance and hands-on support in the design, implementation and best practices of complex or long-running CRUD operations designed for concurrency on multiple, distributed data stores which apply filtering, ordering, aggregation, transformation and composition."
+                ],
+                "TOOLS AND TECHNOLOGIES": [
+                  "Able to articulate, in detail, the tools and technologies used by all teams in a given area of responsibility, why they were selected, where they are used and for what purpose, as well as alternative options and how they compare.",
+                  "Able to draw upon knowledge and experience so as to act as an authoritative and effective guide to teams in the approach to, and the implementation of, complex engineering challenges.",
+                  "Able to evaluate and select tools and technologies to meet the  engineering challenges across teams, balancing this with organisational requirements, complexity, maintenance and architectural direction",
+                  "Demonstrates consideration of the total cost of ownership and economy of scale in evaluating both new and existing tools and technologies. Ensures that there is is a high degree of transparency in the process, that the greatest scope of shared benefit is achieved and that there is no contention with similar activities activies in other areas of the business."
+                ],
+                "BROWSER SUPPORT": [
+                  "Actively engages with customer intelligence data to ensure platform support standards are relevant to the widest possible range of customers.",
+                  "Articulates and actively guides the development of platform optimisation and compatibility standards."
+                ],
+                "DEVELOPMENT LIFECYCLE": [
+                  "Ensures that the process of building, packaging and deploying software through environments, across teams, is done in a consistent, transparent way which adheres to the processes and principles set out by engineering leadership. ",
+                  "Works with teams to promote best practice, improve automation and reduce risk in the release of software. Ensures that knowledge is shared across teams and with the wider engineering organisation and that new approaches are agreed and adopted.",
+                  "Actively ensures that technical depencies are co-ordinated between teams and that a clear, timely, collaborative and repeatable technical approach is followed when releasing software so that risk is mitigated."
+                ],
+                "CODE QUALITY": [
+                  "Promotes a test-first approach to software engineering solutions and a co-ordinated approach to automation, continuous integration and continuous deployment across teams and the wider technology organisation. Monitors and refines static code quality analysis tools continuously to identify areas of improvement and pro-actively works with teams to help develop and strengthen them. Has a full understanding of how code style impacts debugging and general problem solving and promotes these across teams."
+                ],
+                "CODE CRAFTSMANSHIP": [
+                  "Actively guides the teams to produce well-crafted software which does not require extensive documentation and which adheres to the principles of SOLID, YAGNI, KISS and DRY. Ensures that engineering choices an approaches balance bespoke development with readily available packages."
+                ],
+                "CODE REVIEW": [
+                  "Ensures that the code review process is active, efficient and beneficial. Continuously reviews the code produced by teams, including third party teams, to ensure that it adheres to ASOS patterns and pratices."
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
